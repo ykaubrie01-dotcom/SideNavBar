@@ -20,7 +20,7 @@
 
 }
 /* expanded slidebar */
-.sidebar .active{
+.sidebar.active{
     width: 220px;
 }
 
@@ -38,15 +38,15 @@
         margin-top: 20px;
         opacity: 0;
         visibility: hidden;
-        transform: translate(-20px);
+        transform: translateX(-20px);
         transition: opacity 0.3s ease, transform 0.3s ease;
     }
 
 /* show nav links only when expanded */
- .sidebar .active .nav-links {
+ .sidebar.active .nav-links {
     opacity: 1;
-    visibility: visiable;
-    transform: translatex(0);
+    visibility: visible;
+    transform: translateX(0);
  }
 
 .nav-links li {
